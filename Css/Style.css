@@ -1,0 +1,260 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .sidenav {
+     height: 100%;
+     width: 0px;
+     position: fixed;
+     z-index: 1004;
+     top: 0;
+     right: 0;
+     background-color: #111B10;
+     color: #fff;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+
+  }
+
+  .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+     color: #4C4C4C;
+  }
+
+  .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 0px;
+     font-size: 36px;
+  }
+
+  .closebtn {
+    padding-top: 0px !important;
+  }
+
+  .close_img {
+     height: 17px;
+     padding-right: 5px;
+  }
+
+  .nav-link {
+    position: relative;
+    left: 600;
+    top: 0px;
+    color: #fff;
+    margin-left: 19px;
+    margin-right: 19px
+  }
+
+  .main {
+    margin-left: 50px
+  }
+
+  @media screen and (min-height: 50px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media screen and (min-width: 992px) {
+    .icon {
+      display: none
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    img {
+      max-height: 300px
+    }
+  }
+
+  .container-fluid {
+    color: #fff;
+    background: #111B10
+  }
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0
+  }
+
+  b {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px
+  }
+
+  .lines {
+    position: fixed;
+    top: 50px;
+    left: 69px;
+    z-index: 1001;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+  .lines a {
+    text-decoration: none;
+    color: black
+  }
+
+  .collapsible {
+    font-size: 18px;
+    background-color: #fff;
+    color: #818181;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    padding: 8px 8px 8px 32px;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .collapsible:hover {
+    color: #4c4c4c
+  }
+
+  .content {
+    display: none;
+    overflow: hidden;
+    color: #40514E;
+    text-align: left;
+    padding: 8px 8px 8px 10px
+  }
+
+  .carousel-item img {
+    height: 500px;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  @media screen and (max-width: 368px) {
+    .navbar-brand {
+      font-size: 18px;
+      z-index: 0
+    }
+  }
+
+  @media screen and (max-width: 343px) {
+    .navbar-brand {
+      font-size: 16px;
+      z-index: 0
+    }
+  }
+
+    #intro-example {
+      height: 500px;
+    }
+
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
+    bg-image{
+      position: relative;
+      overflow: hidden;
+      background-repeat: no-repeat !important;
+      background-size: cover;
+      width:300px;
+  }
+
+  .bg-image .mask{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  color:#fff;
+  }
+
+  .banner {
+    background-color: #111B10;
+    background-image: url('https://github.com/Shivam-Raj-2007/myPage/blob/main/Image/banner.png?raw=true');
+    background-repeat: no-repeat !important;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 992px) {
+    .bg-image .mask {
+      height: 550px
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .bg-image .mask .text-white{
+      margin: 0.5rem;
+    }
+    .bg-image .mask .text-white h2{
+      font-size: 1.5625rem;
+    }
+    .bg-image .mask .text-white h5{
+      font-size: 1.25rem;
+    }
+  }
+
+  .big {
+    display: block;
+  }
+
+  .small {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .big {
+      display: none;
+    }
+    .small {
+      display: block;
+      font-size: 1.375rem;
+    }
+  }
+
+  .title {
+    color: #111B10;
+  }
+
+  .point {
+    margin: -2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+    list-style-type: none;
+  }
+
+  .point .num {
+    background-color: #ffcc00;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-right: 0.22rem;
+    font-size: 1.5rem;
+  }
